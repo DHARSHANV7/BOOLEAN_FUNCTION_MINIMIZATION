@@ -16,7 +16,11 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory**
 
-**Logic Diagram**
+
+![Screenshot 2025-03-21 075546](https://github.com/user-attachments/assets/2b7a3a39-2d6f-45dc-a7c9-7e25099fe67a)
+![Screenshot 2025-03-21 075555](https://github.com/user-attachments/assets/1e61f8c1-6315-4435-884a-adb6bf2e6c75)
+
+
 
 **Procedure**
 
@@ -32,38 +36,37 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: Dharshan v
-RegisterNumber:212224240035
-
-**EXP 2A
-~~~
-module EXP2(a,b,c,d,f1);
+Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+```
+module EXP_3_1(a,b,c,d,f1);
 input a,b,c,d;
 output f1;
 assign f1=((~b&~d)|(~a&b&d)|(a&b&~c));
 endmodule
-~~~
-**EXP 2B
-~~~
-module EXP2B(w,x,y,z,f2);
+```
+
+```
+module EXP_3_2(w,x,y,z,f2);
 input w,x,y,z;
 output f2;
-assign f2= ((~y&z)|(w&z)|(x&y)|(w&y&~z));
+assign f2=((~y&z)|(x&y)|(w&y));
 endmodule
-~~~
+```
+
+Developed by: Dharshan V
+
+RegisterNumber: 212224240035
+
+
 **RTL realization**
-EXP 2A
-![Screenshot 2025-03-14 142551](https://github.com/user-attachments/assets/b1d1b319-6438-4305-b914-63dafe7f3c1a)
-EXP 2B
-![Screenshot 2025-03-14 205648](https://github.com/user-attachments/assets/edaaa47b-3a3e-465b-b9f3-b70935a75357)
+![Screenshot 2025-03-21 075018](https://github.com/user-attachments/assets/b02660a4-f222-4ecb-bd9b-42f85489bb4d)
+![Screenshot 2025-03-21 075033](https://github.com/user-attachments/assets/7484b248-4ff8-4f86-8282-6ebed8e245b6)
+
 
 **Timing Diagram**
-EXP 2A
-![Screenshot 2025-03-14 143945](https://github.com/user-attachments/assets/30e1b496-6674-491d-ad62-409390ddec5a)
-EXP 2B
-![Screenshot 2025-03-14 205908](https://github.com/user-attachments/assets/f6d462f8-c65b-428b-8f99-f42b5777307d)
+![Screenshot 2025-03-21 075118](https://github.com/user-attachments/assets/db4fba33-9a8c-4307-bbcd-6c20066170c0)
+![Screenshot (174)](https://github.com/user-attachments/assets/03c53752-5cca-4cad-a445-fda13706ff14)
 
 **Result:**
 
