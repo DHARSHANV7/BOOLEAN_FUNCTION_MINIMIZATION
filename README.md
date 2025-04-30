@@ -1,3 +1,6 @@
+
+# NAME: Dharshan V
+# REG NO: 212224240035
 # BOOLEAN_FUNCTION_MINIMIZATION
 
 **AIM:**
@@ -33,35 +36,22 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming./
+![image](https://github.com/user-attachments/assets/2a5a683a-b793-4432-a961-7da8e957e105)
 
 
-Developed by: Dharshan V
+**TRUTHTABLE**
 
-RegisterNumber: 212224240035
-```
-module exp2(a,b,c,d,f1);
-input a,b,c,d;
-output f1;
-assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
-endmodule
+![image](https://github.com/user-attachments/assets/b4838796-1acb-4e9b-acda-ac254eeed203)
+![image](https://github.com/user-attachments/assets/ee64b24e-3349-4046-ae76-78627c0851bb)
 
-module exp22(w,x,y,z,f2);
-input w,x,y,z;
-output f2;
-assign f2=((~y & z)|( w & y )|(x & y));
-endmodule
-```
-**Output:**
+**RTL:**
 
-**RTL**
-![Screenshot 2025-03-18 205833](https://github.com/user-attachments/assets/9a351987-210d-483a-89a6-22d283e8eb68)
-![Screenshot 2025-03-18 211245](https://github.com/user-attachments/assets/51e89129-d92e-4037-a80e-57af3d512a09)
+![image](https://github.com/user-attachments/assets/489e5576-091c-4dd7-8e34-6c67f7614435)
 
+**WAVEFORM:**
 
-**Timing Diagram**
-![Screenshot 2025-03-18 210040](https://github.com/user-attachments/assets/80c85123-284c-44ee-8561-a50df9cbf2a8)
-![Screenshot 2025-03-18 211613](https://github.com/user-attachments/assets/1ef0b161-5b87-48b7-b2cb-b8101a26209e)
+![image](https://github.com/user-attachments/assets/b7a0149f-f83d-430b-9d90-5a95ba3ba5a6)
+
 
 **Result:**
 
