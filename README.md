@@ -1,6 +1,3 @@
-
-# NAME: Dharshan V
-# REG NO: 212224240035
 # BOOLEAN_FUNCTION_MINIMIZATION
 
 **AIM:**
@@ -21,6 +18,14 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Logic Diagram**
 
+**1) .**
+
+![F1](https://github.com/user-attachments/assets/ae5dff15-a63c-4ad6-a510-18205278f2df)
+
+**2) .**
+
+![F2](https://github.com/user-attachments/assets/c53fcedf-1baf-4803-912a-a3a02332bc38)
+
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -34,24 +39,50 @@ Hardware – PCs, Cyclone II , USB flasher
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+**Program:** 
 
-![image](https://github.com/user-attachments/assets/2a5a683a-b793-4432-a961-7da8e957e105)
+Developed by: Dharshan V
+
+RegisterNumber: 212224240035
+
+**1) .**
+```
+module ex2(a,b,c,d,f1);
+input a,b,c,d;
+output f1;
+assign f1 = ((~b&~d)|(~a&b&d)|(a&b&~c));
+endmodule 
+```
+**2) .**
+```
+module ex2(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2 = ((~y&z)|(w&z)|(x&y)|(w&y&~z));
+endmodule 
+```
+**Output:**
+
+**1) .**
+
+![image](https://github.com/user-attachments/assets/75e17e45-82d4-487f-a16f-fa604407d299)
+
+**2) .**
+
+![image](https://github.com/user-attachments/assets/a054cb4f-1e95-4c55-9e76-012e1302d576)
 
 
-**TRUTHTABLE**
+**RTL**
 
-![image](https://github.com/user-attachments/assets/b4838796-1acb-4e9b-acda-ac254eeed203)
-![image](https://github.com/user-attachments/assets/ee64b24e-3349-4046-ae76-78627c0851bb)
+**Timing Diagram**
 
-**RTL:**
+**1) .**
 
-![image](https://github.com/user-attachments/assets/489e5576-091c-4dd7-8e34-6c67f7614435)
+![image](https://github.com/user-attachments/assets/3f806e78-e83e-440a-94fb-0fcc3682df37)
 
-**WAVEFORM:**
+**2) .**
 
-![image](https://github.com/user-attachments/assets/b7a0149f-f83d-430b-9d90-5a95ba3ba5a6)
-
+![image](https://github.com/user-attachments/assets/47cc7085-016f-4dee-8bd5-04f9a0d16197)
 
 **Result:**
 
